@@ -1,0 +1,21 @@
+.app-header-container {
+    width: calc(100vw - 40px);
+    height: 70px;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    .brand {
+        font-size: 28px;
+        font-weight: 700;
+        color: blueviolet;
+    }
+    .links-view {
+        .link-item {
+            padding: 7px 15px;
+            font-size: 16px;
+            margin: 0px 10px;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.container {
+    overflow-y: auto;
+    .content-view {
+        width: 80%;
+        margin: auto;
+        height: calc(100vh - 110px);
+        overflow-y: auto;
+        padding: 20px;
+    }
+}
